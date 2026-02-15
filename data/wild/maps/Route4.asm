@@ -19,8 +19,8 @@ IF DEF(_BLUE)
 	db 12, SPEAROW
 	db 13, SANDSHREW
 	db 14, MEOWTH
-	db 12, SLOWPOKE
-	db 15, SLOWPOKE
+	db 12, PSYDUCK
+	db 15, PSYDUCK
 ENDC
 	db  5, CHARMANDER
 	end_grass_wildmons
