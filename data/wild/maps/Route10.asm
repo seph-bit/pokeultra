@@ -8,8 +8,8 @@ Route10WildMons:
 	db 23, MACHOP
 	db 22, VOLTORB
 	db 24, FEAROW
-	db 22, ELECTABUZZ
-	db 24, ELECTABUZZ
+	db 22, RHYHORN
+	db 24, RHYHORN
 	end_grass_wildmons
 
 	def_water_wildmons 0 ; encounter rate
