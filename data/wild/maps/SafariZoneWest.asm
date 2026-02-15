@@ -1,26 +1,15 @@
 SafariZoneWestWildMons:
 	def_grass_wildmons 30 ; encounter rate
-IF DEF(_RED)
-	db 25, NIDORAN_M
-	db 26, DODUO
-	db 23, VENONAT
-	db 24, EXEGGCUTE
-	db 33, NIDORINO
-	db 26, EXEGGCUTE
-	db 25, NIDORAN_F
-ENDC
-IF DEF(_BLUE)
-	db 25, NIDORAN_F
-	db 26, DODUO
-	db 23, VENONAT
-	db 24, EXEGGCUTE
-	db 33, NIDORINA
-	db 26, EXEGGCUTE
-	db 25, NIDORAN_M
-ENDC
-	db 31, VENOMOTH
-	db 26, TAUROS
-	db 28, KANGASKHAN
+	db 32, MACHOKE
+	db 31, RHYHORN
+	db 30, PRIMEAPE
+	db 30, CLEFAIRY
+	db 33, GRAVELER
+	db 32, PRIMEAPE
+	db 34, MACHOKE
+	db 33, CLEFABLE
+	db 35, CHANSEY
+	db 36, CHANSEY
 	end_grass_wildmons
 
 	def_water_wildmons 0 ; encounter rate
