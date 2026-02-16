@@ -67,7 +67,6 @@ TypeEffects:
 	db BUG,          FLYING,       NOT_VERY_EFFECTIVE
 	db BUG,          PSYCHIC_TYPE, SUPER_EFFECTIVE
 	db BUG,          GHOST,        NOT_VERY_EFFECTIVE
-	db BUG,          POISON,       SUPER_EFFECTIVE
 	db ROCK,         FIRE,         SUPER_EFFECTIVE
 	db ROCK,         FIGHTING,     NOT_VERY_EFFECTIVE
 	db ROCK,         GROUND,       NOT_VERY_EFFECTIVE
@@ -75,11 +74,41 @@ TypeEffects:
 	db ROCK,         BUG,          SUPER_EFFECTIVE
 	db ROCK,         ICE,          SUPER_EFFECTIVE
 	db GHOST,        NORMAL,       NO_EFFECT
-	db GHOST,        PSYCHIC_TYPE, NO_EFFECT
+	db GHOST,        PSYCHIC_TYPE, SUPER_EFFECTIVE
 	db FIRE,         DRAGON,       NOT_VERY_EFFECTIVE
 	db WATER,        DRAGON,       NOT_VERY_EFFECTIVE
 	db ELECTRIC,     DRAGON,       NOT_VERY_EFFECTIVE
 	db GRASS,        DRAGON,       NOT_VERY_EFFECTIVE
 	db ICE,          DRAGON,       SUPER_EFFECTIVE
 	db DRAGON,       DRAGON,       SUPER_EFFECTIVE
+    db FIGHTING,     DARK,         SUPER_EFFECTIVE
+    db BUG,          DARK,         SUPER_EFFECTIVE
+    db FAIRY,        DARK,         SUPER_EFFECTIVE
+    db GHOST,        DARK,         NOT_VERY_EFFECTIVE
+    db DARK,         DARK,         NOT_VERY_EFFECTIVE
+    db PSYCHIC,      DARK,         NO_EFFECT
+    db DARK,         FIGHTING,     NOT_VERY_EFFECTIVE
+    db DARK,         FAIRY,        NOT_VERY_EFFECTIVE
+    db STEEL,        ELECTRIC,     NOT_VERY_EFFECTIVE
+    db STEEL,        FIRE,         NOT_VERY_EFFECTIVE
+    db STEEL,        WATER,        NOT_VERY_EFFECTIVE
+    db STEEL,        STEEL,        NOT_VERY_EFFECTIVE
+    db STEEL,        ICE,          SUPER_EFFECTIVE
+    db STEEL,        ROCK,         SUPER_EFFECTIVE
+    db STEEL,        FAIRY,        SUPER_EFFECTIVE
+    db NORMAL,       STEEL,        NOT_VERY_EFFECTIVE
+    db FLYING,       STEEL,        NOT_VERY_EFFECTIVE
+    db BUG,          STEEL,        NOT_VERY_EFFECTIVE
+    db PSYCHIC,      STEEL,        NOT_VERY_EFFECTIVE
+    db ROCK,         STEEL,        NOT_VERY_EFFECTIVE
+    db FAIRY,        STEEL,        NOT_VERY_EFFECTIVE
+    db FAIRY,        FIRE,         NOT_VERY_EFFECTIVE
+    db FAIRY,        POISON,       NOT_VERY_EFFECTIVE
+    db FAIRY,        DARK,         SUPER_EFFECTIVE
+    db FAIRY,        FIGHTING,     SUPER_EFFECTIVE
+    db FAIRY,        DRAGON,       SUPER_EFFECTIVE
+    db POISON,       FAIRY,        SUPER_EFFECTIVE
+    db DARK,         FAIRY,        NOT_VERY_EFFECTIVE
+    db FIGHTING,     FAIRY,        NOT_VERY_EFFECTIVE
+    db BUG,          FAIRY,        NOT_VERY_EFFECTIVE
 	db -1 ; end
