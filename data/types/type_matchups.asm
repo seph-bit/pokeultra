@@ -86,7 +86,7 @@ TypeEffects:
     db FAIRY,        DARK,         SUPER_EFFECTIVE
     db GHOST,        DARK,         NOT_VERY_EFFECTIVE
     db DARK,         DARK,         NOT_VERY_EFFECTIVE
-    db PSYCHIC,      DARK,         NO_EFFECT
+    db PSYCHIC_TYPR, DARK,         NO_EFFECT
     db DARK,         FIGHTING,     NOT_VERY_EFFECTIVE
     db DARK,         FAIRY,        NOT_VERY_EFFECTIVE
     db STEEL,        ELECTRIC,     NOT_VERY_EFFECTIVE
@@ -99,9 +99,12 @@ TypeEffects:
     db NORMAL,       STEEL,        NOT_VERY_EFFECTIVE
     db FLYING,       STEEL,        NOT_VERY_EFFECTIVE
     db BUG,          STEEL,        NOT_VERY_EFFECTIVE
-    db PSYCHIC,      STEEL,        NOT_VERY_EFFECTIVE
+    db PSYCHIC_TYPE, STEEL,        NOT_VERY_EFFECTIVE
     db ROCK,         STEEL,        NOT_VERY_EFFECTIVE
     db FAIRY,        STEEL,        NOT_VERY_EFFECTIVE
+    db FIGHTING,     STEEL,        SUPER_EFFECTIVE
+    db FIRE,         STEEL,        SUPER_EFFECTIVE
+    db GROUND,       STEEL,        SUPER_EFFECTIVE
     db FAIRY,        FIRE,         NOT_VERY_EFFECTIVE
     db FAIRY,        POISON,       NOT_VERY_EFFECTIVE
     db FAIRY,        DARK,         SUPER_EFFECTIVE
