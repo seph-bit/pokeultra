@@ -10,7 +10,6 @@ DEF PHYSICAL EQU const_value
 	const ROCK         ; $05
 	const BIRD         ; $06
 	const BUG          ; $07
-	const GHOST        ; $08
     const DRAGON       ; $1A
     const DARK         ; $1B
     const STEEL        ; $1C
